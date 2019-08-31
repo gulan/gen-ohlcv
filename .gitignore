@@ -1,0 +1,6 @@
+*~
+*.db
+my__*
+my--*
+ohlcv-insert.sql
+

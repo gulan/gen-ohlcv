@@ -35,7 +35,7 @@ def genrec(openp):
     return (highp, lowp, closep, volumep)
 
 def mkrecs():
-    # The opening time is the previous closing time.
+    # The opening price is the previous closing price.
     openp = random.randint(*R)
     for (_,ts) in gentimes():
         (hi,lo,cl,vo) = genrec(openp)
